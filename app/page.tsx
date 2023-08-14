@@ -4,6 +4,8 @@ import Footer from './footer'
 import Fastfood from './fastfood/fastfood'
 import Service from './services/services'
 import Categories from './product/product'
+import Product2 from './product2/product2'
+import BestDelivered from './product/product'
 
 export default function Home() {
   return (
@@ -14,10 +16,12 @@ export default function Home() {
           <br/>
           <Fastfood/>
           <br/>
+         
           <br/>
           <Service/>
-          <Categories/>
-
+          <BestDelivered/>
+          {/* <Categories/> */}
+          <Product2/>
           <Footer/>
       </div>
     
