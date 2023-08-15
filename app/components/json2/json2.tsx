@@ -20,7 +20,7 @@ export const imagez= [
         
    
  
-    img :"french fries.jpeg",
+    img :"french fries (copy).jpeg",
     header:"French Fries",
     "buttonText": "Order Now", 
     icon: <i className="bi bi-chevron-compact-right" style={{ color: ' red;' }}></i>

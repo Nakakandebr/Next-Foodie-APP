@@ -1,5 +1,4 @@
-import React from 'react'
-// import Humberger from '../images/first image (copy).jpeg'
+
 
 export default function Fastfood() {
   return (

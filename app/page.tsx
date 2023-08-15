@@ -1,26 +1,22 @@
-import Image from 'next/image'
-import Navbar from './navbar'
-import Footer from './footer'
-import Fastfood from './fastfood/fastfood'
-import Service from './services/services'
-import Categories from './product/product'
-import Product2 from './product2/product2'
-import BestDelivered from './product/product'
+
+import Navbar from './components/navbar'
+import Footer from './components/footer'
+import Fastfood from './components/fastfood/fastfood'
+import Service from './components/services/services'
+
+import Product2 from './components/product2/product2'
+import BestDelivered from './components/product/product'
 
 export default function Home() {
   return (
     
       <div >
           <Navbar/>
-          <br/>
-          <br/>
-          <Fastfood/>
-          <br/>
          
-          <br/>
+          <Fastfood/>
+          
           <Service/>
           <BestDelivered/>
-          {/* <Categories/> */}
           <Product2/>
           <Footer/>
       </div>
